@@ -1,0 +1,13 @@
+.main-body {
+  -webkit-font-smoothing: antialiased;
+
+  letter-spacing: 0;
+  background: #212c4f;
+  transition: color 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+    fill 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+#big-text {
+  font-size: 36px;
+  color: white;
+}

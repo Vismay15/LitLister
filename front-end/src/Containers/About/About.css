@@ -1,0 +1,126 @@
+.about-body {
+  -webkit-font-smoothing: antialiased;
+
+  letter-spacing: 0;
+  background: #212c4f;
+  transition: color 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 0.8s cubic-bezier(0.2, 0.8, 0.2, 1),
+    fill 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.header-text {
+  font-size: calc(30px + (30 * ((100vw - 320px) / 960)));
+  font-weight: lighter;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(88, 86, 214) 0%,
+    rgb(156, 111, 255) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-box svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.about-box {
+  font-size: 18px;
+  color: white;
+  position: relative;
+
+  min-height: 15rem;
+}
+.main-box {
+  position: relative;
+  font-family: 32px;
+  background: rgb(195, 180, 223);
+}
+#gearBox {
+  position: relative;
+  height: 140px;
+  width: 140px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+.circle {
+  height: auto;
+  width: auto;
+  background-color: rgb(255, 184, 52);
+  border-radius: 50%;
+
+  display: inline-block;
+}
+#gearLogo2 {
+  position: absolute;
+  top: -30px;
+  animation: infinite-spinning-back 2s 0s infinite linear;
+}
+#gearLogo {
+  width: 100%;
+  position: absolute; /* 2 */
+  top: 0%; /* 3 */
+  animation: infinite-spinning 2s 0s infinite linear;
+}
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(360deg);
+  }
+}
+@keyframes infinite-spinning-back {
+  from {
+    transform: rotate(-360deg);
+  }
+}
+.text-over-image {
+  font-weight: lighter;
+  font-size: 22px;
+  position: relative;
+  visibility: visible;
+  display: inline-block;
+  height: 300px;
+  color: rgb(45, 44, 88);
+}
+.header-text-big {
+  font-size: 64px;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(93, 55, 136) 0%,
+    rgb(78, 62, 148) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-title {
+  font-weight: bold;
+  color: black;
+}
+.card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+.card:hover {
+  transform: scale(1.03);
+
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.fill {
+  object-fit: fill;
+}
+.contain {
+  object-fit: contain;
+}
+.cover {
+  object-fit: cover;
+}
+.scale-down {
+  object-fit: scale-down;
+}
+.none {
+  object-fit: none;
+}

@@ -1,0 +1,49 @@
+.big-text {
+  font-size: calc(30px + (30 * ((100vw - 320px) / 960)));
+  font-weight: lighter;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(88, 86, 214) 0%,
+    rgb(156, 111, 255) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.team-card {
+  background: white;
+  border: black;
+
+  border-style: solid;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.team-image {
+  max-height: 250px;
+  width: auto;
+  object-fit: cover;
+}
+.role-text {
+  font-size: calc(30px + (5 * ((100vw - 320px) / 960)));
+  font-weight: lighter;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(88, 86, 214) 0%,
+    rgb(156, 111, 255) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fill {
+  object-fit: fill;
+}
+.contain {
+  object-fit: contain;
+}
+.cover {
+  object-fit: cover;
+}
+.scale-down {
+  object-fit: scale-down;
+}
+.none {
+  object-fit: none;
+}

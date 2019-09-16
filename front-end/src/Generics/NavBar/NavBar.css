@@ -1,0 +1,54 @@
+#LoginButton {
+  color: white;
+  border-color: rgb(64, 66, 68);
+  background: rgb(64, 66, 68);
+}
+#LoginButton:focus {
+  background: rgb(89, 92, 95);
+  color: white;
+  box-shadow: 0 0 0 0.2rem rgba(132, 0, 255, 0);
+}
+#LoginButton:hover {
+  color: white;
+  background: rgb(89, 92, 95);
+  box-shadow: 0 0 0 0.2rem rgba(132, 0, 255, 0);
+}
+#SignUpButton {
+  color: white;
+  border-color: rgba(132, 0, 255, 0);
+  background: #720ea4;
+  box-shadow: 0 0 0 0.2rem rgba(132, 0, 255, 0);
+}
+#SignUpButton:focus {
+  background: rgb(130, 16, 187);
+}
+#SignUpButton:hover {
+  background: rgb(130, 16, 187);
+}
+#cartDiv {
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 0px;
+  width: auto;
+  border-color: white;
+}
+#cartDiv:hover {
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
+#cartDiv:focus {
+  border-color: #d1d1d1;
+  background-color: #d1d1d1;
+}
+
+#categorySelect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}

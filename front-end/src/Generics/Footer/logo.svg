@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="194px" viewBox="0 0 149 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DB4747" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#0F0515" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M34.383769,184.359386 L149,184.359386 L149,36 L34.383769,36 C15.4726961,36 0,51.4061724 0,70.2359386 L0,195.764061 C0,214.593828 15.4726961,230 34.383769,230 L149,230 L149,207.179693 L34.383769,207.179693 C28.0764104,207.179693 22.9188451,202.044302 22.9188451,195.764061 C22.9296003,189.494502 28.0871382,184.359112 34.383769,184.359112 L34.383769,184.359386 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MainLogo" transform="translate(-180.000000, -309.000000)">
+            <g id="Group" transform="translate(180.000000, 273.000000)">
+                <g id="Fill-1">
+                    <use fill="#720EA4" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

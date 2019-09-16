@@ -1,0 +1,8 @@
+.imageContainerReview {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b6b6b6;
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+}
